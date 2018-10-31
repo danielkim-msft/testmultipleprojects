@@ -19,6 +19,16 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>Watch (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>Watch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>WatchExtension.xcscheme</key>
 		<dict>
 			<key>orderHint</key>

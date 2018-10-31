@@ -12,9 +12,6 @@
 		AB6303282139DAC900CE989A /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6303272139DAC900CE989A /* TodayViewController.swift */; };
 		AB63032B2139DAC900CE989A /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6303292139DAC900CE989A /* MainInterface.storyboard */; };
 		AB63032F2139DAC900CE989A /* TodayExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AB6303232139DAC800CE989A /* TodayExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		AB63033B213F496A00CE989A /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB63033A213F496A00CE989A /* ShareViewController.swift */; };
-		AB63033E213F496A00CE989A /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB63033C213F496A00CE989A /* MainInterface.storyboard */; };
-		AB630342213F496A00CE989A /* ShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AB630338213F496900CE989A /* ShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		ABD94BD12134B167005B2D99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD94BD02134B167005B2D99 /* AppDelegate.swift */; };
 		ABD94BD32134B167005B2D99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD94BD22134B167005B2D99 /* ViewController.swift */; };
 		ABD94BD62134B167005B2D99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD94BD42134B167005B2D99 /* Main.storyboard */; };
@@ -22,10 +19,7 @@
 		ABD94BDB2134B168005B2D99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD94BD92134B168005B2D99 /* LaunchScreen.storyboard */; };
 		ABD94BE62134B168005B2D99 /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD94BE52134B168005B2D99 /* testTests.swift */; };
 		ABD94BF12134B168005B2D99 /* testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD94BF02134B168005B2D99 /* testUITests.swift */; };
-		ABF3D0C2214B5E3800CC5B17 /* AudioUnitExtensionAudioUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF3D0C1214B5E3800CC5B17 /* AudioUnitExtensionAudioUnit.m */; };
-		ABF3D0C4214B5E3800CC5B17 /* AudioUnitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF3D0C3214B5E3800CC5B17 /* AudioUnitViewController.swift */; };
-		ABF3D0C7214B5E3800CC5B17 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF3D0C5214B5E3800CC5B17 /* MainInterface.storyboard */; };
-		ABF3D0CC214B5E3800CC5B17 /* AudioUnitExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = ABF3D0BE214B5E3800CC5B17 /* AudioUnitExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ABF9948E218A6B3C0068AE27 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF9948D218A6B3C0068AE27 /* IntentHandler.swift */; };
 		FEC347AAC304F532D17C96DD /* Pods_testUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA24886A1A28A9CC8FEF7B2 /* Pods_testUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,13 +30,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = AB6303222139DAC800CE989A;
 			remoteInfo = TodayExtension;
-		};
-		AB630340213F496A00CE989A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ABD94BC52134B167005B2D99 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AB630337213F496900CE989A;
-			remoteInfo = ShareExtension;
 		};
 		ABD94BE22134B168005B2D99 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -58,13 +45,6 @@
 			remoteGlobalIDString = ABD94BCC2134B167005B2D99;
 			remoteInfo = test;
 		};
-		ABF3D0CA214B5E3800CC5B17 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ABD94BC52134B167005B2D99 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ABF3D0BD214B5E3800CC5B17;
-			remoteInfo = AudioUnitExtension;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -74,8 +54,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				AB630342213F496A00CE989A /* ShareExtension.appex in Embed App Extensions */,
-				ABF3D0CC214B5E3800CC5B17 /* AudioUnitExtension.appex in Embed App Extensions */,
 				AB63032F2139DAC900CE989A /* TodayExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -94,10 +72,6 @@
 		AB6303272139DAC900CE989A /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		AB63032A2139DAC900CE989A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		AB63032C2139DAC900CE989A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB630338213F496900CE989A /* ShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB63033A213F496A00CE989A /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
-		AB63033D213F496A00CE989A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		AB63033F213F496A00CE989A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABD94BCD2134B167005B2D99 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD94BD02134B167005B2D99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABD94BD22134B167005B2D99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,13 +85,9 @@
 		ABD94BEC2134B168005B2D99 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD94BF02134B168005B2D99 /* testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITests.swift; sourceTree = "<group>"; };
 		ABD94BF22134B168005B2D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABF3D0BE214B5E3800CC5B17 /* AudioUnitExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AudioUnitExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABF3D0C0214B5E3800CC5B17 /* AudioUnitExtensionAudioUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioUnitExtensionAudioUnit.h; sourceTree = "<group>"; };
-		ABF3D0C1214B5E3800CC5B17 /* AudioUnitExtensionAudioUnit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioUnitExtensionAudioUnit.m; sourceTree = "<group>"; };
-		ABF3D0C3214B5E3800CC5B17 /* AudioUnitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUnitViewController.swift; sourceTree = "<group>"; };
-		ABF3D0C6214B5E3800CC5B17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		ABF3D0C8214B5E3800CC5B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABF3D0C9214B5E3800CC5B17 /* AudioUnitExtension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioUnitExtension-Bridging-Header.h"; sourceTree = "<group>"; };
+		ABF9948B218A6B3C0068AE27 /* WatchExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WatchExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF9948D218A6B3C0068AE27 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		ABF9948F218A6B3C0068AE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEB6E123E3BEFDD019F12E8B /* Pods-testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-testTests/Pods-testTests.release.xcconfig"; sourceTree = "<group>"; };
 		B204878155E2BF7BE241D18E /* Pods-testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testUITests/Pods-testUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D32D6CD5BD217F3E44B1D6F5 /* Pods-testUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-testUITests/Pods-testUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -130,13 +100,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB6303252139DAC900CE989A /* NotificationCenter.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB630335213F496900CE989A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +126,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABF3D0BB214B5E3800CC5B17 /* Frameworks */ = {
+		ABF99488218A6B3C0068AE27 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -207,16 +170,6 @@
 			path = TodayExtension;
 			sourceTree = "<group>";
 		};
-		AB630339213F496A00CE989A /* ShareExtension */ = {
-			isa = PBXGroup;
-			children = (
-				AB63033A213F496A00CE989A /* ShareViewController.swift */,
-				AB63033C213F496A00CE989A /* MainInterface.storyboard */,
-				AB63033F213F496A00CE989A /* Info.plist */,
-			);
-			path = ShareExtension;
-			sourceTree = "<group>";
-		};
 		ABD94BC42134B167005B2D99 = {
 			isa = PBXGroup;
 			children = (
@@ -224,8 +177,7 @@
 				ABD94BE42134B168005B2D99 /* testTests */,
 				ABD94BEF2134B168005B2D99 /* testUITests */,
 				AB6303262139DAC900CE989A /* TodayExtension */,
-				AB630339213F496A00CE989A /* ShareExtension */,
-				ABF3D0BF214B5E3800CC5B17 /* AudioUnitExtension */,
+				ABF9948C218A6B3C0068AE27 /* WatchExtension */,
 				ABD94BCE2134B167005B2D99 /* Products */,
 				96E7738B088816E78EE8302D /* Pods */,
 				3796D9E6A9BB25D623BECD0B /* Frameworks */,
@@ -239,8 +191,7 @@
 				ABD94BE12134B168005B2D99 /* testTests.xctest */,
 				ABD94BEC2134B168005B2D99 /* testUITests.xctest */,
 				AB6303232139DAC800CE989A /* TodayExtension.appex */,
-				AB630338213F496900CE989A /* ShareExtension.appex */,
-				ABF3D0BE214B5E3800CC5B17 /* AudioUnitExtension.appex */,
+				ABF9948B218A6B3C0068AE27 /* WatchExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -276,17 +227,13 @@
 			path = testUITests;
 			sourceTree = "<group>";
 		};
-		ABF3D0BF214B5E3800CC5B17 /* AudioUnitExtension */ = {
+		ABF9948C218A6B3C0068AE27 /* WatchExtension */ = {
 			isa = PBXGroup;
 			children = (
-				ABF3D0C0214B5E3800CC5B17 /* AudioUnitExtensionAudioUnit.h */,
-				ABF3D0C1214B5E3800CC5B17 /* AudioUnitExtensionAudioUnit.m */,
-				ABF3D0C3214B5E3800CC5B17 /* AudioUnitViewController.swift */,
-				ABF3D0C5214B5E3800CC5B17 /* MainInterface.storyboard */,
-				ABF3D0C8214B5E3800CC5B17 /* Info.plist */,
-				ABF3D0C9214B5E3800CC5B17 /* AudioUnitExtension-Bridging-Header.h */,
+				ABF9948D218A6B3C0068AE27 /* IntentHandler.swift */,
+				ABF9948F218A6B3C0068AE27 /* Info.plist */,
 			);
-			path = AudioUnitExtension;
+			path = WatchExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,23 +256,6 @@
 			productReference = AB6303232139DAC800CE989A /* TodayExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		AB630337213F496900CE989A /* ShareExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AB630343213F496A00CE989A /* Build configuration list for PBXNativeTarget "ShareExtension" */;
-			buildPhases = (
-				AB630334213F496900CE989A /* Sources */,
-				AB630335213F496900CE989A /* Frameworks */,
-				AB630336213F496900CE989A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ShareExtension;
-			productName = ShareExtension;
-			productReference = AB630338213F496900CE989A /* ShareExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 		ABD94BCC2134B167005B2D99 /* test */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABD94BF52134B168005B2D99 /* Build configuration list for PBXNativeTarget "test" */;
@@ -340,8 +270,6 @@
 			);
 			dependencies = (
 				AB63032E2139DAC900CE989A /* PBXTargetDependency */,
-				AB630341213F496A00CE989A /* PBXTargetDependency */,
-				ABF3D0CB214B5E3800CC5B17 /* PBXTargetDependency */,
 			);
 			name = test;
 			productName = test;
@@ -386,22 +314,22 @@
 			productReference = ABD94BEC2134B168005B2D99 /* testUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		ABF3D0BD214B5E3800CC5B17 /* AudioUnitExtension */ = {
+		ABF9948A218A6B3C0068AE27 /* WatchExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABF3D0CF214B5E3800CC5B17 /* Build configuration list for PBXNativeTarget "AudioUnitExtension" */;
+			buildConfigurationList = ABF99490218A6B3C0068AE27 /* Build configuration list for PBXNativeTarget "WatchExtension" */;
 			buildPhases = (
-				ABF3D0BA214B5E3800CC5B17 /* Sources */,
-				ABF3D0BB214B5E3800CC5B17 /* Frameworks */,
-				ABF3D0BC214B5E3800CC5B17 /* Resources */,
+				ABF99487218A6B3C0068AE27 /* Sources */,
+				ABF99488218A6B3C0068AE27 /* Frameworks */,
+				ABF99489218A6B3C0068AE27 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AudioUnitExtension;
-			productName = AudioUnitExtension;
-			productReference = ABF3D0BE214B5E3800CC5B17 /* AudioUnitExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
+			name = WatchExtension;
+			productName = WatchExtension;
+			productReference = ABF9948B218A6B3C0068AE27 /* WatchExtension.appex */;
+			productType = "com.apple.product-type.app-extension.intents-service";
 		};
 /* End PBXNativeTarget section */
 
@@ -416,9 +344,6 @@
 					AB6303222139DAC800CE989A = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
-					AB630337213F496900CE989A = {
-						CreatedOnToolsVersion = 9.4.1;
-					};
 					ABD94BCC2134B167005B2D99 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -430,7 +355,7 @@
 						CreatedOnToolsVersion = 9.4.1;
 						TestTargetID = ABD94BCC2134B167005B2D99;
 					};
-					ABF3D0BD214B5E3800CC5B17 = {
+					ABF9948A218A6B3C0068AE27 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
@@ -452,8 +377,7 @@
 				ABD94BE02134B168005B2D99 /* testTests */,
 				ABD94BEB2134B168005B2D99 /* testUITests */,
 				AB6303222139DAC800CE989A /* TodayExtension */,
-				AB630337213F496900CE989A /* ShareExtension */,
-				ABF3D0BD214B5E3800CC5B17 /* AudioUnitExtension */,
+				ABF9948A218A6B3C0068AE27 /* WatchExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -464,14 +388,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB63032B2139DAC900CE989A /* MainInterface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB630336213F496900CE989A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB63033E213F496A00CE989A /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,11 +415,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABF3D0BC214B5E3800CC5B17 /* Resources */ = {
+		ABF99489218A6B3C0068AE27 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABF3D0C7214B5E3800CC5B17 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,14 +490,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB630334213F496900CE989A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB63033B213F496A00CE989A /* ShareViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		ABD94BC92134B167005B2D99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -608,12 +515,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABF3D0BA214B5E3800CC5B17 /* Sources */ = {
+		ABF99487218A6B3C0068AE27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABF3D0C2214B5E3800CC5B17 /* AudioUnitExtensionAudioUnit.m in Sources */,
-				ABF3D0C4214B5E3800CC5B17 /* AudioUnitViewController.swift in Sources */,
+				ABF9948E218A6B3C0068AE27 /* IntentHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,11 +531,6 @@
 			target = AB6303222139DAC800CE989A /* TodayExtension */;
 			targetProxy = AB63032D2139DAC900CE989A /* PBXContainerItemProxy */;
 		};
-		AB630341213F496A00CE989A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AB630337213F496900CE989A /* ShareExtension */;
-			targetProxy = AB630340213F496A00CE989A /* PBXContainerItemProxy */;
-		};
 		ABD94BE32134B168005B2D99 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = ABD94BCC2134B167005B2D99 /* test */;
@@ -640,11 +541,6 @@
 			target = ABD94BCC2134B167005B2D99 /* test */;
 			targetProxy = ABD94BED2134B168005B2D99 /* PBXContainerItemProxy */;
 		};
-		ABF3D0CB214B5E3800CC5B17 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ABF3D0BD214B5E3800CC5B17 /* AudioUnitExtension */;
-			targetProxy = ABF3D0CA214B5E3800CC5B17 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -652,14 +548,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				AB63032A2139DAC900CE989A /* Base */,
-			);
-			name = MainInterface.storyboard;
-			sourceTree = "<group>";
-		};
-		AB63033C213F496A00CE989A /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB63033D213F496A00CE989A /* Base */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -678,14 +566,6 @@
 				ABD94BDA2134B168005B2D99 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		ABF3D0C5214B5E3800CC5B17 /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ABF3D0C6214B5E3800CC5B17 /* Base */,
-			);
-			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -724,46 +604,6 @@
 					"@executable_path/../../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.dkim.test.TodayExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		AB630344213F496A00CE989A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 29UTQE9JS9;
-				INFOPLIST_FILE = ShareExtension/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.dkim.test.ShareExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		AB630345213F496A00CE989A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 29UTQE9JS9;
-				INFOPLIST_FILE = ShareExtension/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.dkim.test.ShareExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -1013,45 +853,47 @@
 			};
 			name = Release;
 		};
-		ABF3D0CD214B5E3800CC5B17 /* Debug */ = {
+		ABF99491218A6B3C0068AE27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29UTQE9JS9;
-				INFOPLIST_FILE = AudioUnitExtension/Info.plist;
+				INFOPLIST_FILE = WatchExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.dkim.test.AudioUnitExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.dkim.WatchExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "AudioUnitExtension/AudioUnitExtension-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
 			};
 			name = Debug;
 		};
-		ABF3D0CE214B5E3800CC5B17 /* Release */ = {
+		ABF99492218A6B3C0068AE27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29UTQE9JS9;
-				INFOPLIST_FILE = AudioUnitExtension/Info.plist;
+				INFOPLIST_FILE = WatchExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.dkim.test.AudioUnitExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.dkim.WatchExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "AudioUnitExtension/AudioUnitExtension-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
 			};
 			name = Release;
 		};
@@ -1063,15 +905,6 @@
 			buildConfigurations = (
 				AB6303302139DAC900CE989A /* Debug */,
 				AB6303312139DAC900CE989A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AB630343213F496A00CE989A /* Build configuration list for PBXNativeTarget "ShareExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AB630344213F496A00CE989A /* Debug */,
-				AB630345213F496A00CE989A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1112,11 +945,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABF3D0CF214B5E3800CC5B17 /* Build configuration list for PBXNativeTarget "AudioUnitExtension" */ = {
+		ABF99490218A6B3C0068AE27 /* Build configuration list for PBXNativeTarget "WatchExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ABF3D0CD214B5E3800CC5B17 /* Debug */,
-				ABF3D0CE214B5E3800CC5B17 /* Release */,
+				ABF99491218A6B3C0068AE27 /* Debug */,
+				ABF99492218A6B3C0068AE27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
